@@ -15,7 +15,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "deeplearn"
 version = "0.1.0"
-source = "git+https://github.com/tedsta/deeplearn-rs#f686de303614a8843091d2a0e3710995a270d476"
+source = "git+https://github.com/tedsta/deeplearn-rs#c4c63875807c1e1298e205e87e68779e50914fcb"
 dependencies = [
  "gpuarray 0.1.0 (git+https://github.com/tedsta/gpuarray-rs)",
  "rand 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
