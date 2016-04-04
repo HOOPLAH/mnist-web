@@ -1,0 +1,78 @@
+[root]
+name = "digit-rec"
+version = "0.1.0"
+dependencies = [
+ "deeplearn 0.1.0 (git+https://github.com/tedsta/deeplearn-rs)",
+ "gpuarray 0.1.0 (git+https://github.com/tedsta/gpuarray-rs)",
+ "rmp 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "byteorder"
+version = "0.3.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "deeplearn"
+version = "0.1.0"
+source = "git+https://github.com/tedsta/deeplearn-rs#f686de303614a8843091d2a0e3710995a270d476"
+dependencies = [
+ "gpuarray 0.1.0 (git+https://github.com/tedsta/gpuarray-rs)",
+ "rand 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gpuarray"
+version = "0.1.0"
+source = "git+https://github.com/tedsta/gpuarray-rs#3e42cb326e1d86acc4964b797dcf02d655ef626f"
+dependencies = [
+ "libc 0.1.12 (registry+https://github.com/rust-lang/crates.io-index)",
+ "opencl 0.3.0-dev (git+https://github.com/tedsta/rust-opencl)",
+ "ref_filter_map 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "libc"
+version = "0.2.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "log"
+version = "0.3.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "opencl"
+version = "0.3.0-dev"
+source = "git+https://github.com/tedsta/rust-opencl#db07a7750a027f341ec31ea8d200e84a4832dd42"
+dependencies = [
+ "libc 0.1.12 (registry+https://github.com/rust-lang/crates.io-index)",
+ "log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rand"
+version = "0.3.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.9 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "ref_filter_map"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rmp"
+version = "0.7.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "byteorder 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
