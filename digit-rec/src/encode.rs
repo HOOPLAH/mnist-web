@@ -30,7 +30,7 @@ fn write_var_to_file<P: AsRef<Path>>(path: P, graph: &Graph, v: VarIndex)
 
 fn write_var<W: Write>(w: &mut W, graph: &Graph, v: VarIndex)
                        -> Result<(), encode::ValueWriteError> {
-    try!(write_array(w, v.get_cpu(graph)));
+    try!(write_array(w, v.get(graph).get(graph.context())));
     Ok(())
 }
 

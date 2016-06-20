@@ -7,3 +7,4 @@ authors = ["Theodore DeRego <tderego94@gmail.com>"]
 deeplearn = { git = "https://github.com/tedsta/deeplearn-rs" }
 gpuarray = { git = "https://github.com/tedsta/gpuarray-rs" }
 rmp = "^0.7"
+image = "*"
